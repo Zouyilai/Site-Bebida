@@ -5,8 +5,16 @@ class IndexRoute {
 		res.render("index/index");
 	}
 
-	public async teste(req: app.Request, res: app.Response) {
-		res.send("Eu sou um texto...");
+	public async products(req: app.Request, res: app.Response) {
+		res.render("index/products");
+	}
+
+	public async contact(req: app.Request, res: app.Response) {
+		res.render("index/contact");
+	}
+
+	public async about(req: app.Request, res: app.Response) {
+		res.render("index/about");
 	}
 }
 
