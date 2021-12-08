@@ -241,6 +241,26 @@ nav{
 }
 
 /* Página - Home */
+/* Página - contact */
+.input{
+    border-color: none;
+    background-color: #F3F9F6;
+    border-style: none;
+    border: 0;
+    border-bottom: 2px solid #b2b2b2;
+    outline: 0;
+    width: 400px;
+    position: relative;
+}
+
+.contact{
+    font-weight: 400;
+}
+
+.label{
+    padding: 0 auto;
+}
+
 /* Página - about */
 .titulo{
     font-family: 'Passions Conflict', cursive;
