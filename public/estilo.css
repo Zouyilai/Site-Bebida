@@ -197,6 +197,7 @@ nav{
 
 .botao{
     background-color: #AAE8B4;
+    margin: 0;
 }
 
 .search{
@@ -216,4 +217,22 @@ nav{
 }
 
 /* Página - Home */
+/* Página - about */
+.titulo{
+    font-family: 'Passions Conflict', cursive;
+    font-size: 110px;
+    padding: 40px 0 0 70px;
+}
 
+.div1{
+    margin: 124px auto 70px auto;
+    max-width: 1300px;
+}
+
+.espacorow{
+    padding: 20px 10px;
+}
+
+.espacocol{
+    padding-top: 70px;
+}
