@@ -260,3 +260,13 @@ nav{
 .espacocol{
     padding-top: 70px;
 }
+
+.font-cursive{
+    font-family: 'Passions Conflict', cursive;
+    font-size: 40px;
+}
+
+.div-bird{
+    max-width: 500px;
+    margin: 20px auto 0 auto;
+}
