@@ -178,6 +178,30 @@ nav{
     font-family: Comforter;
 }
 
+.btn-entrar{
+    color: #fff;
+    background-color: #AAE8B4;
+    border-color: #AAE8B4;
+}
+
+.btn-entrar:hover{
+    background-color: #A2D9AC;
+    border-color: #A2D9AC;
+    color: #fff;
+}
+
+.btn-sair{
+    color: #fff;
+    background-color: #CDCECD;
+    border-color: #CDCECD;
+}
+
+.btn-sair:hover{
+    color: #fff;
+    background-color: #B5B5B5;
+    border-color: #B5B5B5;
+}
+
 /* Rodapé */
 .rodape{
     background-color: #D9ECDC;
