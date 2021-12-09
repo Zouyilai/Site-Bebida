@@ -247,9 +247,15 @@ nav{
     background-color: #F3F9F6;
     border-style: none;
     border: 0;
-    border-bottom: 2px solid #b2b2b2;
+    border-bottom: 1px solid #62755C;
     outline: 0;
-    width: 400px;
+    border-radius: 0;
+    position: relative;
+}
+
+.input-choose{
+    border-color: #62755C;
+    background-color: #F3F9F6;
     position: relative;
 }
 
@@ -259,6 +265,34 @@ nav{
 
 .label{
     padding: 0 auto;
+}
+
+.input-group{
+    display: inline;
+}
+
+.space-input{
+    padding-top: 20px;
+}
+
+.space-div{
+    margin: 75px auto 30px auto;
+}
+
+.space-h3{
+    padding: 10px 0;
+}
+
+.space-h3-2{
+    margin: 70px auto 20px auto;
+}
+
+.div-max{
+    max-width: 1300px;
+}
+
+.space-span{
+    padding-left: 5px;
 }
 
 /* Página - about */
@@ -279,6 +313,10 @@ nav{
 
 .espacocol{
     padding-top: 70px;
+}
+
+.space-text2{
+    padding: 130px 0 130px 0;
 }
 
 .font-cursive{
