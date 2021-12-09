@@ -241,6 +241,23 @@ nav{
 }
 
 /* Página - Home */
+/* Página - produtos */
+.width-div{
+    max-width: 1200px;
+}
+
+.space-row{
+    margin: 0 auto 20px auto;
+}
+
+.img-height{
+    max-height: 310px;
+}
+
+.color-div{
+    background-color: #E8F2ED;
+}
+
 /* Página - contact */
 .input{
     border-color: none;
@@ -294,6 +311,17 @@ nav{
 .space-span{
     padding-left: 5px;
 }
+
+.botao2:hover{
+    color: #fff;
+    background-color: #A2D9AC;
+}
+
+.link:hover{
+    font-size: 17px;
+    transition: 0.5s;
+}
+
 
 /* Página - about */
 .titulo{

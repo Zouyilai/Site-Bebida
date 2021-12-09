@@ -1,13 +1,16 @@
 <div class="margin-top">
-    <p>Página produto</p>
-    <p>Página produto</p>
-    <p>Página produto</p>
-    <p>Página produto</p>
-    <p>Página produto</p>
-    <p>Página produto</p>
-    <p>Página produto</p>
-    <p>Página produto</p>
-    <p>Página produto</p>
-    <p>Página produto</p>
-    <p>Página produto</p>
+    <div class = "container-fluid width-div text-center">
+        <div class="row space-row">
+            <% for (let i = 0; i < 16; i++) { %>
+                <div class="col-sm-3 text-center">
+                        <div class="color-div">
+                            <img src="/public/imgs/imgs-products/p<%=i%>.png" class="img-height">
+                        </div>
+                        <p>
+                            Lorem ipsum
+                        </p>
+                </div>
+                <% } %>
+        </div>
+    </div>
 </div>
