@@ -1,14 +1,24 @@
-<div class="margin-top">
+<div class="margin-top space-r">
+    <h3 class="text-center space-div-2 espacorow">NOSSOS PRODUTOS</h3>
     <div class = "container-fluid width-div text-center">
+       
         <div class="row space-row">
             <% for (let i = 0; i < 16; i++) { %>
-                <div class="col-sm-3 text-center">
-                        <div class="color-div">
+                <div class="col-sm-6 col-md-4 col-lg-3 text-center">
+                        <div class="color-div text-center">
                             <img src="/public/imgs/imgs-products/p<%=i%>.png" class="img-height">
                         </div>
-                        <p>
-                            Lorem ipsum
+                        <p class="margin-p">
+                            Lorem ipsum | 500 mL<br />
+                            R$ 45,50
                         </p>
+                        <div class="margin-div">
+                            <button type="button" id="menos" class="btn-m">-</button>
+                            <input type="number" id="Quantidade" class="inputQuantidade"/>
+                            <button type="button" id="mais" class="btn-m">+</button>
+
+                            <button type="button" id="comprar" class="btn-comprar space-left">Comprar</button>
+                        </div>
                 </div>
                 <% } %>
         </div>

@@ -256,6 +256,50 @@ nav{
 
 .color-div{
     background-color: #E8F2ED;
+    text-align: center;
+}
+
+.inputQuantidade::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.inputQuantidade{
+    width: 40px;
+    outline: 0;
+}
+
+.btn-comprar{
+    background-color: #95D3B4;
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.btn-m{
+    height: 30px;
+    border-width: 1px;
+    background-color: #D9ECDC;
+}
+
+.margin-p{
+    margin: 10px auto;
+}
+
+.margin-div{
+    margin: 10px auto 45px auto;
+}
+
+.space-left{
+    margin-left: 10px;
+}
+
+.space-div-2{
+    margin: 95px auto 30px auto;
+}
+
+.space-r{
+    margin: 54px auto 60px auto;
 }
 
 /* Página - contact */
