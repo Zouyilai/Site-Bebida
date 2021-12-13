@@ -273,6 +273,33 @@ nav{
     font-weight: 500;
 }
 
+.coluna1{
+    background-image: url(/public/imgs/coluna1.png);
+}
+
+.coluna2{
+    background-image: url(/public/imgs/coluna2.png);
+}
+
+.coluna3{
+    background-image: url(/public/imgs/coluna3.png);
+}
+
+.coluna-format{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 380px 20px 20px 20px;
+}
+
+.max-width2{
+    max-width: 1200px;
+}
+
+.title-col{
+    font-family: 'Gwendolyn', cursive;
+}
+
 /* Página - produtos */
 .width-div{
     max-width: 1200px;
