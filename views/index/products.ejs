@@ -5,22 +5,31 @@
         <div class="row space-row">
             <% for (let i = 0; i < 16; i++) { %>
                 <div class="col-sm-6 col-md-4 col-lg-3 text-center">
-                        <div class="color-div text-center">
-                            <img src="/public/imgs/imgs-products/p<%=i%>.png" class="img-height">
-                        </div>
-                        <p class="margin-p">
-                            Lorem ipsum | 500 mL<br />
-                            R$ 45,50
-                        </p>
+                    <div onclick="mostrarProduto(<%= i %>)">
+                        <a href="/description" style="text-decoration: none; color: #212529;">
+                            <div>
+                                <div class="color-div text-center">
+                                    <img src="/public/imgs/imgs-products/p<%=i%>.png" class="img-height">
+                                </div>
+                                <p class="margin-p">
+                                    Lorem ipsum | 500 mL<br />
+                                    R$ 45,50
+                                </p>
+                            </div>
+                        </a>
                         <div class="margin-div">
                             <button type="button" id="menos" class="btn-m">-</button>
                             <input type="number" id="Quantidade" class="inputQuantidade"/>
                             <button type="button" id="mais" class="btn-m">+</button>
 
                             <button type="button" id="comprar" class="btn-comprar space-left">Comprar</button>
-                        </div>
+                        </div>        
+                    </div>      
                 </div>
-                <% } %>
+            <% } %>
         </div>
     </div>
 </div>
+
+
+<script src= "/public/indiceProduto.js"></script>

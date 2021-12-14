@@ -16,6 +16,10 @@ class IndexRoute {
 	public async about(req: app.Request, res: app.Response) {
 		res.render("index/about");
 	}
+
+	public async description(req: app.Request, res: app.Response) {
+		res.render("index/description");
+	}
 }
 
 export = IndexRoute;

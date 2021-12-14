@@ -289,7 +289,7 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding: 380px 20px 20px 20px;
+    padding: 400px 20px 20px 20px;
 }
 
 .max-width2{
@@ -298,6 +298,36 @@ nav{
 
 .title-col{
     font-family: 'Gwendolyn', cursive;
+}
+
+.space-col{
+    padding: 10px;
+}
+
+.more-info{
+    background-color: #F66966;
+    padding: 5px 8px;
+    color: #fff;
+    border-radius: 5px;
+    border: solid;
+    border-color: #F66966;
+}
+
+.more-info:hover{
+    background-color: #fff;
+    color: #F66966;
+    border-color: rgba(246, 105, 102 , 0.5);
+    border: solid;
+}
+
+.title-col2{
+    margin: 0 auto 20px auto;
+}
+
+.opacity{
+    background-color: rgba(209, 194, 172, 0.6);
+    padding: 20px;
+    border-radius: 2px;
 }
 
 /* Página - produtos */
