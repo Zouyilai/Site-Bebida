@@ -5,6 +5,10 @@ class IndexRoute {
 		res.render("index/index");
 	}
 
+	public async home(req: app.Request, res: app.Response) {
+		res.render("index/home");
+	}
+
 	public async products(req: app.Request, res: app.Response) {
 		res.render("index/products");
 	}

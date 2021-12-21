@@ -318,6 +318,7 @@ nav{
     color: #F66966;
     border-color: rgba(246, 105, 102 , 0.5);
     border: solid;
+    transition: 0.5s;
 }
 
 .title-col2{
